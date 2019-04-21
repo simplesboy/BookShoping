@@ -15,11 +15,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.servlet.http.HttpSession;
 import java.util.List;
 
-/**
- * Created by 文辉 on 2017/7/27.
- */
+
 @Controller
 @RequestMapping("/admin/activity")
+/**
+ * juxiang
+ */
 public class ActivityController {
 
     @Autowired(required = false)
@@ -27,6 +28,12 @@ public class ActivityController {
 
     @Autowired(required = false)
     GoodsService goodsService;
+    /**
+     *@Description //TODO
+     *@Date 14:09 2019/4/21
+     *@Param [pn, model, session]
+     *@return java.lang.String
+    **/
 
     @RequestMapping("/show")
     public String showActivity(@RequestParam(value = "page",defaultValue = "1") Integer pn, Model model, HttpSession session) {
@@ -50,6 +57,12 @@ public class ActivityController {
 
         return "activity";
     }
+    /**
+     *@Description //TODO
+     *@Date 14:14 2019/4/21
+     *@Param [pn, model, session]
+     *@return com.neu.shop.pojo.Msg
+    **/
 
     @RequestMapping("/showjson")
     @ResponseBody
