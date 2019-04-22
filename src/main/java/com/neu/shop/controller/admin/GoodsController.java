@@ -131,7 +131,7 @@ public class GoodsController {
                System.out.println(request.getContextPath());
                 //图片路径=项目在本地磁盘的路径\shop\target\shop\shopimage
                 String imageName = UUID.randomUUID().toString().replace("-", "") + multipartFile.getOriginalFilename();
-                String imagePath = realPath.substring(0,realPath.indexOf("shop")) + "shop/shopimage" + File.separatorChar + imageName;
+                String imagePath = realPath.substring(0,realPath.indexOf("shop")) + "shopimage" + File.separatorChar + imageName;
                 System.out.println(imagePath);
 //                String imagePath = realPath + "shopimage\\" + imageName;
 

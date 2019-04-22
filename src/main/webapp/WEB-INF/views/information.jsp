@@ -1,28 +1,5 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: 蒋松冬
-  Date: 2017/7/24
-  Time: 19:09
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!doctype html>
-<!--
-Material Design Lite
-Copyright 2015 Google Inc. All rights reserved.
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-https://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License
--->
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -172,30 +149,13 @@ limitations under the License
             <span class="mdl-layout-title">个人信息</span>
             <div class="mdl-layout-spacer"></div>
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
-               <%-- <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
-                    <i class="material-icons">search</i>
-                </label>
-                <div class="mdl-textfield__expandable-holder">
-                    <input class="mdl-textfield__input" type="text" id="search">
-                    <label class="mdl-textfield__label" for="search">Enter your query...</label>
-                </div>--%>
             </div>
-           <%-- <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="hdrbtn">
-                <i class="material-icons">more_vert</i>
-            </button>
-            <ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right" for="hdrbtn">
-                <li class="mdl-menu__item">About</li>
-                <li class="mdl-menu__item">Contact</li>
-                <li class="mdl-menu__item">Legal information</li>
-            </ul>--%>
         </div>
     </header>
     <div class="demo-drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
         <header class="demo-drawer-header">
-           <%-- <img src="images/user.jpg" class="demo-avatar">--%>
             <div class="demo-avatar-dropdown">
-                <h1>淘一淘</h1>
-               <%-- <span>hello@example.com</span>--%>
+                <h1>书香阁</h1>
                 <div class="mdl-layout-spacer">
                 </div>
                 <%--<button id="accbtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
